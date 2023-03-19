@@ -1,0 +1,47 @@
+Create a navigation bar using HTML and CSS.
+
+Use HTML to create a navigation bar with appropriate tags such as <ul> and <li>.
+
+Use CSS to style the navigation bar with appropriate properties such as background-color, font-size, and padding
+
+nav.html
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+nav.css
+
+nav {
+  background-color: #333;
+  height: 50px;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
